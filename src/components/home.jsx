@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import "isomorphic-fetch";
 import "es6-promise";
 
