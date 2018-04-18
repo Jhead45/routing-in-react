@@ -9,7 +9,11 @@ class Home extends Component {
     
     render() {
         return(
-            <h1>This is Home</h1>
+            <div>
+            <h1 className='text-center'>This site is created to locate your favorite movie from Studio Ghibli.</h1>
+            <br />
+            <h2 className='text-center'>Use this site to navigate through the films and favorite charactors.</h2>
+            </div>
         );
     }
 }

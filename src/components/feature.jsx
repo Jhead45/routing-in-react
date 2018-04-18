@@ -17,10 +17,11 @@ class Feature extends Component {
     }
 render() {
   return (
-<table class="table">
+      <div className='d-flex justify-content-center'>
+<table className="table table-bordered w-50">
   <thead>
     <tr>
-      <th scope="col">{this.state.films.title}</th>
+      <th colSpan='2' className='text-center'>{this.state.films.title}</th>
     </tr>
   </thead>
   <tbody>
@@ -45,7 +46,7 @@ render() {
       <td>{this.state.films.rt_score}</td>
     </tr>
   </tbody>
-</table>
+</table></div>
   );
 }
 }
@@ -55,13 +56,3 @@ export default Feature;
 
 
 
-
-/*
-    <div className="card w-50">
-      <div className="card-body">
-        <h3 className="card-title">{props.value.title}</h3>
-        <p className="card-text">{props.value.description}</p>
-      </div>
-    </div>
-
-    */

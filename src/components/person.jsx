@@ -17,10 +17,11 @@ class Person extends Component {
     }
 render() {
   return (
-<table class="table">
+    <div className='d-flex justify-content-center'>
+<table className="table table-bordered w-50">
   <thead>
     <tr>
-      <th scope="col">{this.state.person.name}</th>
+      <th colSpan='2' className='text-center'>{this.state.person.name}</th>
     </tr>
   </thead>
   <tbody>
@@ -41,7 +42,7 @@ render() {
       <td>{this.state.person.hair_color}</td>
     </tr>
   </tbody>
-</table>
+</table></div>
   );
 }
 }
