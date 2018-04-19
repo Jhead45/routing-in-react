@@ -19,9 +19,10 @@ render() {
             <img className='w-50' src={Logo} alt='Studio G Logo'/>
             </div>
             <div className='d-flex justify-content-center'>
-            <Link className="btn btn-info mr-2 mt-2" to="/">Go Home</Link>
-            <Link className="btn btn-info mr-2 mt-2" to="/films">View Films</Link> 
-            <Link className="btn btn-info mr-2 mt-2" to="/people">View People</Link> 
+            <Link className="btn btn-info mr-4 mt-2" to="/">Go Home</Link>
+            <Link className="btn btn-info mr-4 mt-2" to="/films">View Films</Link> 
+            <Link className="btn btn-info mr-4 mt-2" to="/people">View People</Link> 
+            
             </div>
             <Switch>
                 <Route exact path="/" component={Home} /> 
